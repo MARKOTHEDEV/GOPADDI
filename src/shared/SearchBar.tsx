@@ -12,7 +12,7 @@ const SearchBar =({placeholder='Search'}:Prop)=>{
 
     return             <div>
 
-    <div className="relative mt-2 rounded-[0.25rem] shadow-sm w-[100%]" 
+    <div className="relative rounded-[0.25rem] shadow-sm w-[100%]" 
   //   style={{'backgroundColor':'red'}}
   //   
     >

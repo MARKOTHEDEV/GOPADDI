@@ -7,7 +7,7 @@ const TopBar = ()=>{
 
 
     return (
-        <div className="py-[2.188rem] px-[2rem] flex items-center justify-between gap-[1rem]	">
+        <div className="py-[2.188rem] px-[2rem] flex items-center justify-between gap-[1rem] items-center	">
 
             <div className="flex gap-[1.75rem]">
             <img src="logo.svg" alt="gopaddi logo" />

@@ -1,5 +1,6 @@
 import GeneralLayout from "../layout/GeneralLayout";
 import Button from "../shared/Button";
+import SideBar from "../shared/SideBar";
 
 
 
@@ -7,16 +8,10 @@ const IndexPage =()=>{
 
     return (
         <GeneralLayout>
-            <br /><br />
-              <Button
-              color="white"
-              >
-              Subscribe
-              </Button>
-              <p className="text-[red]">
 
-              </p>
-
+                <div>
+                    <h1>Where the body will be my bosss!!</h1>
+                </div>
         </GeneralLayout>
     )
 }
