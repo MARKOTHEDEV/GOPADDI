@@ -63,7 +63,7 @@ export default SideBar;
 
 
 const SideBarLinks =({img,text}:{img:string,text:string})=>(
-    <div className="text-grayblue2 flex gap-[0.5rem] text-[1rem] py-[1rem] px-[0.938rem] ">
+    <div className="text-grayblue2 flex gap-[0.5rem] text-[1rem] py-[1rem] px-[0.938rem] cursor-pointer">
         <img src={img} alt="" />
         <p>{text}</p>
     </div>

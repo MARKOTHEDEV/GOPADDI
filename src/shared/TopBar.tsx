@@ -95,7 +95,7 @@ type TopBarIconWithTextLinkProp ={
 }
 const TopBarIconWithTextLink =({text,icon}:TopBarIconWithTextLinkProp)=>(
     //no need for a component it specific to this file
-    <div className="inline-block">
+    <div className="inline-block cursor-pointer">
         <img src={icon} className="block mx-auto" alt="" />
         <p className="poppins-regular font-[500] text-[0.8rem] text-grayblue2 text-center"> 
         {text}
