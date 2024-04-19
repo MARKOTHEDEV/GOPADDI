@@ -44,7 +44,7 @@ const FlightActivityCard = ()=>{
                         </div>
 
                         <div className="h-[8px] w-[100%] bg-grayBlue rounded-[8px] relative after:content-[''] after:bg-blue 
-                        after:h-[8px] after:w-[136px] after:absolute after:left-[32%] after:rounded-[8px]
+                        after:h-[8px] after:w-[136px] after:absolute after:left-[32%] after:rounded-[8px] my-[0.688rem]
                         ">
                             {/* progress bar */}
                         </div>
