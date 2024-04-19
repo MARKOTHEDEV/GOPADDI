@@ -18,7 +18,7 @@ const ActivityCard = ({theme}:Prop)=>{
         'lightBlue':{
             text:'text-[#000000]',
             btn:'text-[#000000]  text-white',
-            bg:'bg-grayBlue text-white',
+            bg:'bg-grayBlue ',
         },
         'blue':{
             text:'text-white',

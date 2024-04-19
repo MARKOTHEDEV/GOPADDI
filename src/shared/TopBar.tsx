@@ -11,7 +11,7 @@ const TopBar = ()=>{
 
             <div className="flex gap-[1.75rem]">
             <img src="logo.svg" alt="gopaddi logo" />
-            <div className="w-[250px] ">
+            <div className="w-[400px] ">
             <SearchBar />
 
             </div>
