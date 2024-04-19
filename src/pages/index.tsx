@@ -1,3 +1,4 @@
+import GeneralLayout from "../layout/GeneralLayout";
 import Button from "../shared/Button";
 
 
@@ -5,7 +6,7 @@ import Button from "../shared/Button";
 const IndexPage =()=>{
 
     return (
-        <div>
+        <GeneralLayout>
             <br /><br />
               <Button
               color="white"
@@ -16,7 +17,7 @@ const IndexPage =()=>{
 
               </p>
 
-        </div>
+        </GeneralLayout>
     )
 }
 
