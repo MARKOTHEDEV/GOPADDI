@@ -1,17 +1,18 @@
+import Button from "./Button";
 
 
 
 
-const HostActivityCard = ()=>{
-
+const GeneralActivities =()=>{
 
     return (
-      <div className="bg-white flex">
-          <div className="bg-white rounded-[4px] p-[1.5rem] flex w-[96%]">
-        <div className="relative">
-        <img src="/hotels/Rectangle 3437.svg" className="block h-[100%]" alt="" />
+        <div className="bg-white flex">
+          <div className="bg-white rounded-[4px] pt-[1.5rem] pl-[1.5rem] pb-[1.5rem] flex w-[96%]">
 
-        <div className="flex justify-between absolute w-[90%]
+            <div className="relative">
+            <img src="/hotels/Rectangle 3437.svg" className="block h-[100%]" alt="" />
+
+            <div className="flex justify-between absolute w-[90%]
             top-[50%] left-[5%]
             "
             //  style={{'border':'1px solid green'}}
@@ -19,17 +20,20 @@ const HostActivityCard = ()=>{
                         <img src="/activity/Vector.svg" alt="" />
                         <img src="/activity/vector1.svg" alt="" />
                     </div>
-        </div>
+            </div>
 
-            <div className=" w-[90%]"
+
+            <div className=" w-[95%] "
             // style={{'border':'1px solid green'}}
             >
-               <div className="flex  items-start justify-between pl-[1rem]">
+               <div className="flex  items-start justify-between pl-[1rem] pr-[1.5rem]">
                <div 
                 // style={{'border':'1px solid red'}}
                 >
-                    <h2 className="text-[#000000] poppins-semibold text-[1.25rem]">Riviera Resort, Lekki</h2>
-                    <p className="text-[#1D2433] poppins-medium w-[500px]">18, Kenneth Agbakuru Street, Off Access Bank Admiralty Way, Lekki Phase1</p>
+                    <h2 className="text-[#000000] poppins-semibold text-[1.25rem]">The Museum of Modern Art</h2>
+                    <p className="text-[#1D2433] poppins-medium w-[500px]">
+                    Works from Van Gogh to Warhol & beyond plus a sculpture garden, 2 cafes & The modern restaurant
+                    </p>
                     <p className="flex gap-[0.875rem] pt-[0.5rem]">
                         <p className="text-blue text-[1rem] poppins-medium flex items-center gap-[0.375rem]">
                             <span><img src="/hotels/MapPin.svg" alt="" /></span>
@@ -59,17 +63,23 @@ const HostActivityCard = ()=>{
                 </div>
                </div>
 
-                <div className="border-b-[1px] border-t-[1px] text-[#647995]  border-[#E4E7EC] mt-[1.125rem] pl-[1rem] flex  items-center justify-between">
-                    <p className="flex gap-[0.75rem] py-[0.875rem]">
-                        <span >Facilities:</span>
-                        <span className="flex items-center gap-[0.375rem]"><img src="/hotels/Vector 2.svg" alt="" /><span>Pool</span></span>
-                        <span className="flex items-center gap-[0.375rem]"><img src="/hotels/Vector (1) 2.svg" alt="" /><span>Bar</span></span>
-                    </p>
+                <div className="border-b-[1px] border-t-[1px] text-[#647995]  border-[#E4E7EC] mt-[1.125rem] pl-[1rem] flex  items-center justify-between pt-[0.875rem] pb-[2.375rem]
+                 pr-[1.5rem]
+                ">
+                    <div>
+                    <p className="flex gap-[0.75rem] poppins-medium text-[1.125rem]"><span>What's Included:</span> <span>Admission to the Empire State Building</span></p>
+                   <p className="text-blue poppins-medium text-[1.125rem] ">See more</p>
+                    </div>
 
-                    <p className="flex gap-[0.75rem]">
-                        <span><img src="" alt="" /> <span>Check In: 20-04-2024</span></span>
-                        <span><img src="" alt="" /> <span>Check Out: 20-04-2024</span></span>
-                    </p>
+                    <div className="flex gap-[0.875rem]">
+                        <Button className="text-[#0A369D] text-[white] bg-[#0b369d]">
+                        Day 1
+                        </Button>
+                        <div className="flex flex-col gap-[0.625rem]">
+                            <img src="/activity/roundedup.svg"   className="cursor-pointer" alt="" />
+                            <img src="/activity/roundeddown.svg" className="cursor-pointer" alt="" />
+                        </div>
+                    </div>
                 </div>
 
              
@@ -87,13 +97,12 @@ const HostActivityCard = ()=>{
            
         </div>
 
-        <div className="bg-[#FBEAE9]  flex items-center justify-center w-[4%] cursor-pointer w-[4%]">
+        <div className="bg-[#FBEAE9]  flex items-center justify-center w-[4%] cursor-pointer w-[4%] ">
             <img src="/close_activties.svg" alt="" />
      </div>
       
       </div>
+    )
+}
 
-    );
-};
-
-export default HostActivityCard;
+export default GeneralActivities;

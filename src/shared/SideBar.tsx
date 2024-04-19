@@ -7,7 +7,7 @@ const SideBar = ()=>{
 
 
     return (
-        <div className="bg-white w-[300px] px-[1.5rem] py-[2.688rem]"
+        <div className="bg-white w-[300px] px-[1.5rem] py-[2.688rem] h-[100vh] "
         >   
 
         <div className="flex gap-y-[0.75rem] flex-col">

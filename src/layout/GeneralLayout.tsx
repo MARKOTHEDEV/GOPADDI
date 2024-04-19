@@ -18,9 +18,12 @@ const GeneralLayout = ({children}:Prop)=>{
             <TopBar />
             </div>
 
-            <div className="bg-gray flex p-[2.5rem] gap-[4rem]">
+            <div className="bg-gray flex p-[2.5rem] gap-[4rem] relative">
 
-            <SideBar/>
+        <div className="">
+        <SideBar/>
+        </div>
+
 
             <div className="bg-white w-full p-[1.3rem]">
             {children}

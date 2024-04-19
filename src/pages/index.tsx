@@ -2,6 +2,7 @@ import GeneralLayout from "../layout/GeneralLayout";
 import ActivityCard from "../shared/ActivityCard";
 import Button from "../shared/Button";
 import FlightActivityCard from "../shared/FlightActivityCard";
+import GeneralActivities from "../shared/GeneralActivities";
 import HostActivityCard from "../shared/HostActivityCard";
 import SideBar from "../shared/SideBar";
 
@@ -76,6 +77,8 @@ const IndexPage =()=>{
                     <p className="text-grayblue2">Your trip itineraries are placed here</p>
                 </div>
 
+                <div className="flex flex-col gap-[1rem]">
+
                 <div className="bg-gray py-[1.625rem] px-[1.5rem]">
                     {/* Flights Container */}
                     <div className="flex items-center mb-[2.125rem] justify-between">
@@ -119,6 +122,31 @@ const IndexPage =()=>{
                             <HostActivityCard />
                         </div>
                     </div>
+                </div>
+
+
+
+                <div className="bg-blue">
+                    <div className="flex items-center mb-[2.125rem] justify-between p-[1rem]">
+                    <h3 className="poppins-semibold text-[1.125rem] text-white flex gap-[0.625rem] ">
+                    <img src="/hotels/whiteHotel.svg" alt="" />
+                    <span>Activities</span>
+                    </h3>
+
+                    <Button color='white' className="px-[2.438rem] text-blue text-[14px]">Add Activities</Button>
+                    </div>
+
+                    <div className="flex flex-col gap-[1.5rem] p-[1.5rem]">
+                        <div>
+                            <GeneralActivities />
+                        </div>
+
+                        <div>
+                            <GeneralActivities />
+                        </div>
+                    </div>
+                </div>
+
                 </div>
               </div>
             </div>
