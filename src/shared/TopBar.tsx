@@ -7,11 +7,11 @@ const TopBar = ()=>{
 
 
     return (
-        <div className="py-[2.188rem] px-[2rem] flex items-center justify-between	">
+        <div className="py-[2.188rem] px-[2rem] flex items-center justify-between gap-[1rem]	">
 
             <div className="flex gap-[1.75rem]">
             <img src="logo.svg" alt="gopaddi logo" />
-            <div className="w-[280px] 2xl:w-[400px]">
+            <div className="w-[250px] ">
             <SearchBar />
 
             </div>
@@ -95,7 +95,7 @@ const TopBarIconWithTextLink =({text,icon}:TopBarIconWithTextLinkProp)=>(
     //no need for a component it specific to this file
     <div className="inline-block">
         <img src={icon} className="block mx-auto" alt="" />
-        <p className="poppins-regular font-[500] text-[1rem] text-grayblue2 text-center"> 
+        <p className="poppins-regular font-[500] text-[0.8rem] text-grayblue2 text-center"> 
         {text}
         </p>
     </div>
