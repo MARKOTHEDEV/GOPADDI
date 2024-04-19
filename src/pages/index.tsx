@@ -1,6 +1,7 @@
 import GeneralLayout from "../layout/GeneralLayout";
 import ActivityCard from "../shared/ActivityCard";
 import Button from "../shared/Button";
+import FlightActivityCard from "../shared/FlightActivityCard";
 import SideBar from "../shared/SideBar";
 
 
@@ -64,6 +65,33 @@ const IndexPage =()=>{
                     <img src="/box.svg" alt="" />
                     <div className="bg-grayBlue h-[2px] w-[31px]"></div>
                     <img src="/set.svg" alt="" />
+                </div>
+              </div>
+
+
+              <div>
+                <div className="mt-[5.625rem] mb-[1.75rem]">
+                    <h2 className="poppins-semibold text-[1.25rem] text-[#1D2433]">Trip itineraries</h2>
+                    <p className="text-grayblue2">Your trip itineraries are placed here</p>
+                </div>
+
+                <div className="bg-gray py-[1.625rem] px-[1.5rem]">
+                    {/* Flights Container */}
+                    <h3 className="poppins-semibold text-[1.125rem] text-[#1D2433] flex gap-[0.625rem] mb-[2.125rem]">
+                        <img src="/Vector.svg" alt="" />
+                        <span>Flights</span>
+                    </h3>
+
+                    <div className="flex flex-col gap-[1.5rem]">
+                            <div>
+                            <FlightActivityCard />
+                            </div>
+
+                            <div>
+                            <FlightActivityCard />
+                            </div>
+                    </div>
+
                 </div>
               </div>
             </div>

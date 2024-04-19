@@ -11,9 +11,9 @@ const GeneralLayout = ({children}:Prop)=>{
 
 
     return (
-        <div className="w-[100%]" style={{
-            'border':'1px solid red'
-        }}> 
+        <div className="w-[100%]" 
+        // style={{'border':'1px solid red'}}
+        > 
             <div>
             <TopBar />
             </div>
