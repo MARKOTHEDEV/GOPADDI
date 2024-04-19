@@ -17,6 +17,8 @@ export default {
         gray:'#F0F2F5',
         blackthickBlue:'#344054',
         grayblue2:'#647995',
+        cream:'#FEF4E6',
+        brown:'#7A4504'
         
 
       }

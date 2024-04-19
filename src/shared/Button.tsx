@@ -8,7 +8,8 @@ const ButtonStyle =tv({
     variants:{
         color:{
             blue:'text-white bg-blue',
-            white:'bg-white text-blue '
+            white:'bg-white text-blue ',
+            lightBlue:'bg-[#E7F0FF] text-blue'
         },
 
         weight:{

@@ -20,7 +20,7 @@ const GeneralLayout = ({children}:Prop)=>{
 
             <SideBar/>
 
-            <div className="bg-white w-full p-[2rem]">
+            <div className="bg-white w-full p-[1.3rem]">
             {children}
             </div>
             </div>

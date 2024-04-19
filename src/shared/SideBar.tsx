@@ -45,7 +45,7 @@ const SideBar = ()=>{
         </div>
 
         
-        <div className="bg-gray rounded-[4px] py-[1.125rem] px-[0.875rem] flex items-center gap-[1.563rem] mt-[4rem]">
+        <div className="bg-gray rounded-[4px] py-[1.125rem] px-[0.875rem] flex items-center gap-[1.563rem] mt-[4rem] pr-[2rem]">
 
             <div className="flex items-center gap-[0.5rem]">
             <p className="bg-blue py-[0.813rem] px-[0.875rem] text-white rounded-[4px] w-[50px]">GO</p>
