@@ -11,11 +11,11 @@ export default {
     extend: {
       colors:{
         blue:'#0D6EFD',
-        lightBlue:'#000031',
+        lightBlue:'#344054',
         grayBlue:'#E7F0FF',
         white:'#FFFFFF',
         gray:'#F0F2F5',
-        blackthickBlue:'#344054',
+        blackthickBlue:'#000031',
         grayblue2:'#647995',
         cream:'#FEF4E6',
         brown:'#7A4504'
