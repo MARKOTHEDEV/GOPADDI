@@ -2,6 +2,7 @@ import GeneralLayout from "../layout/GeneralLayout";
 import ActivityCard from "../shared/ActivityCard";
 import Button from "../shared/Button";
 import FlightActivityCard from "../shared/FlightActivityCard";
+import HostActivityCard from "../shared/HostActivityCard";
 import SideBar from "../shared/SideBar";
 
 
@@ -77,10 +78,14 @@ const IndexPage =()=>{
 
                 <div className="bg-gray py-[1.625rem] px-[1.5rem]">
                     {/* Flights Container */}
-                    <h3 className="poppins-semibold text-[1.125rem] text-[#1D2433] flex gap-[0.625rem] mb-[2.125rem]">
+                    <div className="flex items-center mb-[2.125rem] justify-between">
+                    <h3 className="poppins-semibold text-[1.125rem] text-[#1D2433] flex gap-[0.625rem] ">
                         <img src="/Vector.svg" alt="" />
                         <span>Flights</span>
                     </h3>
+
+                    <Button color='white' className="px-[2.438rem]">Add Flights</Button>
+                    </div>
 
                     <div className="flex flex-col gap-[1.5rem]">
                             <div>
@@ -92,6 +97,28 @@ const IndexPage =()=>{
                             </div>
                     </div>
 
+                </div>
+
+
+                <div className="bg-lightBlue">
+                    <div className="flex items-center mb-[2.125rem] justify-between p-[1rem]">
+                    <h3 className="poppins-semibold text-[1.125rem] text-white flex gap-[0.625rem] ">
+                    <img src="/hotels/whiteHotel.svg" alt="" />
+                    <span>Hotel</span>
+                    </h3>
+
+                    <Button color='white' className="px-[2.438rem] text-[black] text-[14px]">Add Hotels</Button>
+                    </div>
+
+                    <div className="flex flex-col gap-[1.5rem] p-[1.5rem]">
+                        <div>
+                            <HostActivityCard />
+                        </div>
+
+                        <div>
+                            <HostActivityCard />
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>

@@ -9,7 +9,8 @@ const FlightActivityCard = ()=>{
 
 
     return (
-     <div className="pt-[2rem] bg-white rounded-[4px]">
+     <div className="flex">
+        <div className="pt-[2rem] bg-white rounded-[4px] w-[96%]">
            <div className=" border-b-[1px] border-[#E4E7EC]">
             <div className="pb-[2rem] flex items-center justify-between   px-[1.5rem] ">
                 {/* top area */}
@@ -90,6 +91,10 @@ const FlightActivityCard = ()=>{
                 </div>
                 <p>Edit details</p>
             </div>
+     </div>
+     <div className="bg-[#FBEAE9]  flex items-center justify-center w-[4%] cursor-pointer">
+            <img src="/close_activties.svg" alt="" />
+     </div>
      </div>
     )
 }
