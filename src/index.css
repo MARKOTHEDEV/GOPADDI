@@ -117,3 +117,13 @@
   font-weight: 900;
   font-style: italic;
 }
+
+
+
+body{
+  zoom: 0.9; /* Adjust the zoom factor as needed */
+  -moz-transform: scale(0.9); /* Firefox */
+  -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+  transform: scale(0.9);
+  transform-origin: 0 0;
+}
